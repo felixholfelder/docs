@@ -1,6 +1,6 @@
 site_name: C# Cheat Sheet
 
-site_url: https://aeup-cs.github.io/CheatSheet/
+site_url: https://felixholfelder.github.io/docs/
 
 nav:
     - Übersicht: index.md
@@ -11,39 +11,6 @@ nav:
         - Events: grundlagen/events.md
         - Dateien: grundlagen/dateien.md
         - Coding Conventions: grundlagen/coding_convention.md
-    - Oberflächenprogrammierung (WPF):
-      - ui/index.md
-      - WPF Projekt erstellen in Visual Studio: ui/create_wpf_project.md
-      - WPF Grundlagen: ui/wpf_grundlagen.md
-      - WPF Elemente: ui/elemente.md
-      - Datenbindung: 
-        - Vorbereitung: ui/databinding.md
-        - Daten an Label binden: ui/label_binding.md
-        - Text mit Button ändern: ui/button_binding.md
-    - Git:
-      - Git Kommandozeile: git/git_cmd.md
-      - Git Kommandozeile Kurzübersicht: git/git_cmd_short.md
-      - Git Visual Studio: git/git_vs.md
-      - Git Visual Studio Kurzübersicht: git/git_vs_short.md
-    - Datenbankanbindung:
-      - db/index.md
-      - Installation: db/datanbankanbindung.md
-      - Verbindung herstellen: db/verbindung.md
-      - Daten lesen: db/daten-lesen.md
-      - Daten schreiben: db/daten-schreiben.md
-      - Beispiel: db/beispiel.md
-    - Reflection:
-      - reflection/index.md
-      - Beispielklasse Mitarbeiter: reflection/klasse-mitarbeiter.md
-      - Datentyp dynamisch ermitteln: reflection/datentyp-ermitteln.md
-      - Objekte dynamisch erstellen: reflection/objekte-erstellen.md
-    - Spieleentwicklung:
-      - gamedev/index.md
-      - Einrichtung des Projekts: gamedev/einrichtung.md
-      - Projektübersicht: gamedev/uebersicht.md
-      - Spielobjekt hinzufügen: gamedev/objekt_hinzufuegen.md
-      - Spielobjekt bewegen: gamedev/objekt_bewegen.md
-      - Signale (Events): gamedev/godot_events.md
 
 theme: 
     name: material
