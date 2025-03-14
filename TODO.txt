@@ -1,3 +1,0 @@
-Schleifen zu Schleifen und Verzweigung erweitern
-Primitive Datentypen
-Objekte 
