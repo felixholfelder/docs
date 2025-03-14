@@ -1,0 +1,110 @@
+site_name: C# Cheat Sheet
+
+site_url: https://aeup-cs.github.io/CheatSheet/
+
+nav:
+    - Übersicht: index.md
+    - Grundlagen:
+        - String: grundlagen/string.md
+        #- Verzweigung: grundlagen/verzweigung.md
+        - Schleifen: grundlagen/schleifen.md
+        - Events: grundlagen/events.md
+        - Dateien: grundlagen/dateien.md
+        - Coding Conventions: grundlagen/coding_convention.md
+    - Oberflächenprogrammierung (WPF):
+      - ui/index.md
+      - WPF Projekt erstellen in Visual Studio: ui/create_wpf_project.md
+      - WPF Grundlagen: ui/wpf_grundlagen.md
+      - WPF Elemente: ui/elemente.md
+      - Datenbindung: 
+        - Vorbereitung: ui/databinding.md
+        - Daten an Label binden: ui/label_binding.md
+        - Text mit Button ändern: ui/button_binding.md
+    - Git:
+      - Git Kommandozeile: git/git_cmd.md
+      - Git Kommandozeile Kurzübersicht: git/git_cmd_short.md
+      - Git Visual Studio: git/git_vs.md
+      - Git Visual Studio Kurzübersicht: git/git_vs_short.md
+    - Datenbankanbindung:
+      - db/index.md
+      - Installation: db/datanbankanbindung.md
+      - Verbindung herstellen: db/verbindung.md
+      - Daten lesen: db/daten-lesen.md
+      - Daten schreiben: db/daten-schreiben.md
+      - Beispiel: db/beispiel.md
+    - Reflection:
+      - reflection/index.md
+      - Beispielklasse Mitarbeiter: reflection/klasse-mitarbeiter.md
+      - Datentyp dynamisch ermitteln: reflection/datentyp-ermitteln.md
+      - Objekte dynamisch erstellen: reflection/objekte-erstellen.md
+    - Spieleentwicklung:
+      - gamedev/index.md
+      - Einrichtung des Projekts: gamedev/einrichtung.md
+      - Projektübersicht: gamedev/uebersicht.md
+      - Spielobjekt hinzufügen: gamedev/objekt_hinzufuegen.md
+      - Spielobjekt bewegen: gamedev/objekt_bewegen.md
+      - Signale (Events): gamedev/godot_events.md
+
+theme: 
+    name: material
+    palette:
+        # Palette toggle for dark mode
+        - scheme: slate
+          toggle:
+            icon: material/brightness-4
+            name: Switch to light mode
+        # Palette toggle for light mode
+        - scheme: default
+          toggle:
+            icon: material/brightness-7 
+            name: Switch to dark mode
+    language: de
+    features:
+      - content.code.copy
+      - content.code.annotate
+      - search.suggest
+      - search.share
+      - navigation.indexes
+      - navigation.path
+      - navigation.instant
+      - navigation.instant.progress
+      - navigation.footer
+      #- toc.integrate # Headers on the left instead of right side
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: "#"
+  # Annotations
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  
+plugins:
+  - offline
+  - search
+  - glightbox 
+
+extra_css:
+  - stylesheets/extra.css
