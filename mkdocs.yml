@@ -1,0 +1,4 @@
+site_name: Docs
+site_url: https://felixholfelder.github.io/docs/
+theme:
+  name: material
