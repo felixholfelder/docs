@@ -6,10 +6,11 @@ nav:
   - Übersicht: index.md
   - Grundlagen:
       - Verzweigung:
-          - Übersicht: Verzweigungen/index.md
-          - IF-Statement: Verzweigungen/if.md
-          - ELSE-Statement: Verzweigungen/else.md
-
+          - Übersicht: verzweigungen/index.md
+          - IF-Statement: verzweigungen/if.md
+          - ELSE-Statement: verzweigungen/else.md
+          - Übung IF: verzweigungen/if-exercise.md
+          - Übung ELSE: verzweigungen/else-exercise.md
 
 theme:
   name: material
