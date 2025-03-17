@@ -1,23 +1,26 @@
 site_name: Docs
 site_url: https://felixholfelder.github.io/docs/
 theme:
+  name: material
   palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
+    # Palette toggle for dark mode
+    - scheme: slate
       toggle:
-        icon: material/brightness-auto
+        icon: material/brightness-4
         name: Switch to light mode
-
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
+  language: de
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.share
+    - navigation.indexes
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.footer
