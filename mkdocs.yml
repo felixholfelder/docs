@@ -1,5 +1,12 @@
 site_name: Docs
+
 site_url: https://felixholfelder.github.io/docs/
+
+nav:
+  - Übersicht: index.md
+  - Grundlagen:
+      - Verzweigung: grundlagen/verzweigung.md
+
 theme:
   name: material
   palette:
