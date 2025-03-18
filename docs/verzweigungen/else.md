@@ -1,10 +1,10 @@
 # Else
 
 ## Theorie
-Eine Else-Anweisung ist <b>nur</b> in Verbindung mit einer If-Anweisung möglich!\
-Wie oben beschrieben, wird aufgrund eines Ergebnisses eine Anweisung ausgeführt oder eben nicht.\
-Schlägt die Prüfung bei einer If-Anweisung fehl und der Anweisungsblock wird <b>nicht</b> ausgeführt, kann im Gegenzug der Anweisungsblock der Else-Anweisung ausgeführt werden.\
-\
+Eine Else-Anweisung ist <b>nur</b> in Verbindung mit einer If-Anweisung möglich!
+Wie oben beschrieben, wird aufgrund eines Ergebnisses eine Anweisung ausgeführt oder eben nicht.
+Schlägt die Prüfung bei einer If-Anweisung fehl und der Anweisungsblock wird <b>nicht</b> ausgeführt, kann im Gegenzug der Anweisungsblock der Else-Anweisung ausgeführt werden.
+
 Dazu ist eine Erweiterung der If-Anweisung notwenig.
 
 ## Beispiel

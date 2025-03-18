@@ -1,8 +1,8 @@
 # If
 
 ## Theorie
-Die If-Anweisung ist die einfachste Möglichkeit etwas wärehnd des Programmablaufs zu überprüfen und aufgrund dieses Ergebnisses weitere Anweisungen vorzunehmen. \
-\
+Die If-Anweisung ist die einfachste Möglichkeit etwas wärehnd des Programmablaufs zu überprüfen und aufgrund dieses Ergebnisses weitere Anweisungen vorzunehmen.
+
 Die If-Anweisung beinhaltet zwei Teile:
 * Prüfungsteil
 * Anweisungsblock
