@@ -28,11 +28,5 @@ else
     ```
 
 !!! info "Erklärung"
-        Da die Prüfung in Zeile 3 fehlschlägt, wird die Nächste Prüfung in Zeile 7 ausgeführt. Da diese Prüfungen erfolgreich ist, erscheint die entsprechende Ausgabe.
 
-!!! info
-
-	1. Das [`using`-Keyword](#using) stellt sicher, dass der StreamReader wieder geschlossen wird
-	1. Hier wird line mit der ersten Zeile von TestDatei.txt initialisiert
-	1. Das "Verarbeiten" ist hier eine einfach Konsolenausgabe. Natürlich kann hier alles erdenkliche mit der Zeile passieren.
-	1. Hier wird die nächste Zeile eingelesen. Dieser Schritt ist in der Regel immer der letzte Schritt in der Schleife, da danach wieder geprüft werden muss, ob es noch etwas einzulesen gibt.
+	Da die Prüfung in Zeile 3 fehlschlägt, wird die Nächste Prüfung in Zeile 7 ausgeführt. Da diese Prüfungen erfolgreich ist, erscheint die entsprechende Ausgabe.
