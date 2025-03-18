@@ -20,6 +20,6 @@ if (alter < 18)
 ```
 
 ??? quote "Ausgabe"
-``` text
-Die Person ist minderjährig!
-```
+    ``` text
+    Die Person ist minderjährig!
+    ```

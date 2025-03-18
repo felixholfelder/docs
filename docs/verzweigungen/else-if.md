@@ -23,8 +23,9 @@ else
 }
 ```
 ??? quote "Ausgabe"
-``` text
-Die Person ist ein Kind!
-```
+    ``` text
+    Die Person ist ein Kind!
+    ```
 
-!!! info "Erklärung" Da die Prüfung in Zeile 3 fehlschlägt, wird die Nächste Prüfung in Zeile 7 ausgeführt. Da diese Prüfungen erfolgreich ist, erscheint die entsprechende Ausgabe.
+!!! info "Erklärung"
+        Da die Prüfung in Zeile 3 fehlschlägt, wird die Nächste Prüfung in Zeile 7 ausgeführt. Da diese Prüfungen erfolgreich ist, erscheint die entsprechende Ausgabe.

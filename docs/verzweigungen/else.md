@@ -23,6 +23,6 @@ else
 ```
 
 ??? quote "Ausgabe"
-``` text
-Die Person ist volljährig!
-```
+    ``` text
+    Die Person ist volljährig!
+    ```
