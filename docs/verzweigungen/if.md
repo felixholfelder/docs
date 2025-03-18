@@ -1,13 +1,13 @@
-# Verzweigung
+# If
 
-
+## Theorie
 Die If-Anweisung ist die einfachste Möglichkeit etwas wärehnd des Programmablaufs zu überprüfen und aufgrund dieses Ergebnisses weitere Anweisungen vorzunehmen. \
 \
 Die If-Anweisung beinhaltet zwei Teile:
 * Prüfungsteil
 * Anweisungsblock
 
-### Beispiel
+## Beispiel
 Es ist zu prüfen, ob eine Person minderjährig ist. Ist die Person minderjährig, soll eine entsprechende Ausgabe auf der Konsole erfolgen:
 
 ```cs

@@ -1,9 +1,10 @@
-# Verzweigung
+# Else-If
 
+## Theorie
 Es gibt außerdem die Möglichkeit mehrere If- und Else-Anweisungen zu kombinieren. Dies ist mit der Else-If-Anweisung möglich.\
 Schlägt dabei eine If-Prüfung fehl, wird die Prüfung der nächsten Else-If-Anweisung durchgeführt.
 
-### Beispiel
+## Beispiel
 Zum vorherigen Beispiel ist zusätzlich zu prüfen, ob die Person ein Kind ist.
 
 ```cs
