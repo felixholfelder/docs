@@ -7,6 +7,13 @@ Die If-Anweisung beinhaltet zwei Teile:
 - Prüfungsteil
 - Anweisungsblock
 
+```cs
+if (BEDINGUNG == true)
+{
+    // ANWEISUNG
+}
+```
+
 ## Beispiel
 Es ist zu prüfen, ob eine Person minderjährig ist. Ist die Person minderjährig, soll eine entsprechende Ausgabe auf der Konsole erfolgen:
 
