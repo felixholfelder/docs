@@ -4,7 +4,7 @@ Gegeben ist eine Punktzahl einer Prüfung. Aufgrund dessen soll das Ergebnis der
 ## Schritt 1
 Ist die Punktzahl größer 50 ist die Prüfung bestanden und es soll das Ergebnis der Prüfung ermittelt werden.
 
-!!! success "Lösung"
+??? success "Lösung"
     ``` cs
     int punktzahl = 60;
 
@@ -17,7 +17,7 @@ Ist die Punktzahl größer 50 ist die Prüfung bestanden und es soll das Ergebni
 ## Schritt 2
 Erweiterung zu <a href="#Schritt 1">Schritt 1</a>: Ist die Prüfung nicht bestanden, soll ebenfalls ein entsprechender Text auf die Konsole geschrieben werden.
 
-!!! success "Lösung"
+??? success "Lösung"
     ``` cs
     int punktzahl = 40;
 
@@ -43,11 +43,11 @@ Die angefügte Tabelle zeigt die Aufteilung in Noten.
 | 4    | 64 - 50         |
 | 5    | Nicht bestanden |
 
-!!! info "Tipp"
+??? info "Tipp"
     Es wird der "größer-gleich" Operator (>=) benötigt!
 
 
-!!! success "Lösung"
+??? success "Lösung"
     ``` cs
     int punktzahl = 60;
 
