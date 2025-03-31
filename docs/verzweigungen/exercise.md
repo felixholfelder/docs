@@ -19,7 +19,6 @@ Erweiterung zu <a href="#Schritt 1">Schritt 1</a>: Ist die Prüfung nicht bestan
 !!! success "Lösung"
     ``` cs
     int punktzahl = 40;
-
     if (punktzahl > 50)
     {
         Console.WriteLine("Du hast bestanden!");
