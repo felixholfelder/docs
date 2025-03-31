@@ -29,5 +29,4 @@ else
     ```
 
 !!! info "Erklärung"
-
 	Da die Prüfung in Zeile 3 fehlschlägt, wird die Nächste Prüfung in Zeile 7 ausgeführt. Da diese Prüfungen erfolgreich ist, erscheint die entsprechende Ausgabe.

@@ -7,6 +7,7 @@ Ist die Punktzahl größer 50 ist die Prüfung bestanden und es soll das Ergebni
 !!! success "Lösung"
     ``` cs
     int punktzahl = 60;
+
     if (punktzahl > 50)
     {
         Console.WriteLine("Du hast bestanden!");
@@ -19,6 +20,7 @@ Erweiterung zu <a href="#Schritt 1">Schritt 1</a>: Ist die Prüfung nicht bestan
 !!! success "Lösung"
     ``` cs
     int punktzahl = 40;
+
     if (punktzahl > 50)
     {
         Console.WriteLine("Du hast bestanden!");
@@ -42,13 +44,13 @@ Die angefügte Tabelle zeigt die Aufteilung in Noten.
 | 5    | Nicht bestanden |
 
 !!! info "Tipp"
-
     Es wird der "größer-gleich" Operator (>=) benötigt!
 
 
 !!! success "Lösung"
     ``` cs
     int punktzahl = 60;
+
     if (punktzahl >= 90)
     {
         Console.WriteLine("Du hast die Note 1");
